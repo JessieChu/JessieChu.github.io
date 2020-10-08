@@ -156,6 +156,164 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Markdown基本语法总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/10/08/Markdown基本语法总结/">Markdown基本语法总结</a>
+    </h1>
+  
+
+        
+        <a href="/2020/10/08/Markdown基本语法总结/" class="archive-article-date">
+  	<time datetime="2020-10-08T13:22:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Markdown基本语法总结"><a href="#Markdown基本语法总结" class="headerlink" title="Markdown基本语法总结"></a>Markdown基本语法总结</h1><p>【上边是我还没写完呢，一不小心点了提交= =】<br>同步发表在：</p>
+<h1 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h1><ol>
+<li>标题开头加1~6个#，依次代表一至六级标题。<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题  </span><br><span class="line">## 二级标题 </span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><ol>
+<li>在标题下加上任意个=代表主标题，-代表副标题。<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">主标题</span><br><span class="line">===</span><br><span class="line">副标题</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="主标题"><a href="#主标题" class="headerlink" title="主标题"></a>主标题</h1><h2 id="副标题"><a href="#副标题" class="headerlink" title="副标题"></a>副标题</h2><h1 id="二、文字修饰"><a href="#二、文字修饰" class="headerlink" title="二、文字修饰"></a>二、文字修饰</h1><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*<span class="strong">*加粗*</span><span class="strong">*，__加粗__  </span></span><br><span class="line"><span class="strong"> *</span>斜体<span class="strong">*，_斜体_</span></span><br><span class="line"><span class="strong">*</span>*<span class="strong">*加粗斜体*</span>*<span class="strong">*</span></span><br><span class="line"><span class="strong">~~删除~~</span></span><br></pre></td></tr></table></figure>
+<p><strong>加粗</strong>，<strong>加粗</strong><br> <em>斜体</em>，_斜体_<br><strong><em>加粗斜体</em></strong><br><del>删除</del></p>
+<h1 id="三、分隔符"><a href="#三、分隔符" class="headerlink" title="三、分隔符"></a>三、分隔符</h1><p>一行用3个以上的 <code>* - _</code> 来建立一条分割线，行内除了空格不能有其他字符。<br><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">*** </span>分割线  </span><br><span class="line"><span class="bullet">--- </span>也是分割线  </span><br><span class="line">___ 还是分割线</span><br></pre></td></tr></table></figure></p>
+<hr>
+<hr>
+<hr>
+<h1 id="四、列表"><a href="#四、列表" class="headerlink" title="四、列表"></a>四、列表</h1><ol>
+<li><p>无序列表</p>
+<p><code>- + *</code>这三个符号均可，符号与列表内容间保留一个空格。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>列表内容</span><br><span class="line"><span class="bullet">+ </span>列表内容</span><br><span class="line"><span class="bullet">* </span>列表内容</span><br></pre></td></tr></table></figure>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+</li>
+<li><p>有序列表</p>
+<p>数字加点，序号与内容间保留空格</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span>列表内容</span><br><span class="line"><span class="bullet">2. </span>列表内容</span><br><span class="line"><span class="bullet">3. </span>列表内容</span><br></pre></td></tr></table></figure>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+</li>
+</ol>
+<ol>
+<li><p>嵌套列表</p>
+<p>上一级和下一级之间敲三个空格。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+ </span>一级目录</span><br><span class="line">   + 二级目录</span><br><span class="line"><span class="code">      - 三级目录</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>一级目录<ul>
+<li>二级目录<ul>
+<li>三级目录</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h1 id="五、插入图片"><a href="#五、插入图片" class="headerlink" title="五、插入图片"></a>五、插入图片</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片alt</span>](<span class="link">图片地址  "title"</span>)</span><br></pre></td></tr></table></figure>
+<p>图片alt是显示在图片下面的文字，相当于对图片内容的解释，可以为空。<br>图片地址链接是图片的本地地址或网址。<br>图片title是图片的标题，当鼠标悬置于图片上时显示的内容。title可以为空。<br><img src="https://s3.cn-north-1.amazonaws.com.cn/tws-upload/images/1602159872286-e0adeb31-b9cb-439d-a277-c8ef88f7aaed.jpeg" alt=""></p>
+<h1 id="六、插入链接"><a href="#六、插入链接" class="headerlink" title="六、插入链接"></a>六、插入链接</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">文字链接：[<span class="string">链接名称</span>](<span class="link">http://链接网址</span>)</span><br><span class="line">网址链接：<span class="xml"><span class="tag">&lt;<span class="name">http:</span>//链接网址&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><a href="http://jessiechu.github.io/" target="_blank" rel="noopener">朱佳琪八百年前的blog</a> </p>
+<p><a href="http://jessiechu.github.io/" target="_blank" rel="noopener">http://jessiechu.github.io/</a></p>
+<h1 id="七、引用"><a href="#七、引用" class="headerlink" title="七、引用"></a>七、引用</h1><p>被引用的文本前加符号<code>&gt;</code><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash">我是好人</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;我是大好人</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt;嘿嘿</span></span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>我是好人</p>
+<blockquote>
+<p>我是大好人</p>
+<blockquote>
+<p>嘿嘿</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="八、代码"><a href="#八、代码" class="headerlink" title="八、代码"></a>八、代码</h1><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">行内代码：`<span class="keyword">code</span>`</span><br><span class="line">多行代码：```<span class="keyword">code</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">示例：</span><br><span class="line"></span><br><span class="line">行内代码 `ls -a`</span><br><span class="line"></span><br><span class="line">多行代码：</span><br><span class="line">```python</span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(<span class="string">'hello world!'</span>)</span></span></span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(<span class="string">'hello world!'</span>)</span></span></span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(<span class="string">'hello world!'</span>)</span></span></span><br></pre></td></tr></table></figure>
+<h1 id="九、表格"><a href="#九、表格" class="headerlink" title="九、表格"></a>九、表格</h1><p>基本符号<code>|</code> <code>-</code>和<code>:</code></p>
+<p><code>-:</code>表示内容和标题栏居右对齐，<code>:-</code>表示内容和标题栏居左对齐，<code>:-:</code>表示内容和标题栏居中对齐。</p>
+<p>每行第一个<code>|</code>和最后一个|可以省略，<code>-</code>的数量至少有一个。</p>
+<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">表头|<span class="string">表头</span>|<span class="string">表头</span></span><br><span class="line"><span class="string">-</span>|<span class="string">:-:</span>|<span class="string">-:</span></span><br><span class="line"><span class="string">内容</span>|<span class="string">内容</span>|<span class="string">内容</span></span><br><span class="line"><span class="string">内容</span>|<span class="string">内容</span>|<span class="string">内容</span></span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th style="text-align:center">表头</th>
+<th style="text-align:right">表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td style="text-align:center">内容</td>
+<td style="text-align:right">内容</td>
+</tr>
+<tr>
+<td>内容longlong</td>
+<td style="text-align:center">内容longlong</td>
+<td style="text-align:right">内容longlong</td>
+</tr>
+</tbody>
+</table>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/10/08/Markdown基本语法总结/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-xixixi" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -228,7 +386,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2018 JessieChu
+    		&copy; 2020 JessieChu
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
